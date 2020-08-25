@@ -57,14 +57,13 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Background/home.JPG') no-repeat top center ;
   background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
   padding-top: 60px;
-}
-header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -90,6 +89,16 @@ header .profile-image:hover {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+header.home-page {
+  background-image: url('images/Background/home.JPG');
+  background-position: top center;
+}
+
+header.experience-page {
+  background-image: url('images/Background/experience.JPG');
+  background-position: center;
 }
 
 .tag {
