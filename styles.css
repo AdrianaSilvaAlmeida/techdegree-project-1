@@ -30,7 +30,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
-  z-index: 1;
+  z-index: 1;  
 }
 
 .nav {
@@ -45,7 +45,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #95D0F6 ;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -121,6 +121,11 @@ header.about-page {
   background-position: top center;
 }
 
+header.contact-page {
+  background-image: url('images/Background/contact.JPG');
+  background-position:  center;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -133,6 +138,11 @@ header.about-page {
   background-color: #222;
   color: white;
 }
+
+.main-nav, .tag, h2 {
+  font-family: 'Aclonica';font-size: 22px;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -257,12 +267,17 @@ a.social:hover {
 
 /* Themes */
 
-.theme-orange .nav a:hover {
-  color: #F2EA6E;
+
+.theme-orange .name {
+  color:#F2EA6E;   
 }
 
 .theme-orange .card:hover {
   border-color: #F2EA6E;
+}
+
+.theme-2colors .name {
+  color:#EB810D;   
 }
 
 .theme-2colors .nav a:hover {
@@ -272,6 +287,19 @@ a.social:hover {
 .theme-2colors .card {
   border-color: #EB810D
 }
+
 .theme-2colors .card:hover {
   border-color: #1FAAD4;
+}
+
+.theme-green .name {
+  color: green;
+}
+
+.theme-green .nav a:hover {
+  color: green;
+}
+
+.theme-green .card:hover {
+  border-color: green;
 }
