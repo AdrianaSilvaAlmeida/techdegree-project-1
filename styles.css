@@ -267,6 +267,11 @@ a.social:hover {
 
 /* Themes */
 
+.theme-blue .card:hover {
+  background: url('images/job.jpg') no-repeat right center ;
+  background-size: cover;
+  color: white;  
+}
 
 .theme-orange .name {
   color:#F2EA6E;   
@@ -289,11 +294,12 @@ a.social:hover {
 } 
 
 .theme-2colors .card {
-  border-color: #EB810D
+  border-color: #EB810D;
 }
 
 .theme-2colors .card:hover {
   border-color: #1FAAD4;
+ 
 }
 
 .theme-green .name {
